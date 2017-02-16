@@ -1,0 +1,936 @@
+[ 2017-01-10T22:15:30+08:00 ] ::1 /12-26shop/Home/Index/login?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:30+08:00 ] ::1 /12-26shop/Public/images/bnt_ur_log.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:30+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:30+08:00 ] ::1 /12-26shop/Public/images/user_tit1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:30+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:34+08:00 ] ::1 /12-26shop/Home/Goods/gwc2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-01-10T22:15:49+08:00 ] ::1 /12-26shop/Home/Goods/gwc2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=14 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:50+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:50+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:50+08:00 ] ::1 /12-26shop/Public/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:50+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/gwc3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_order` [ RunTime:0.0100s ]
+SQL: INSERT INTO `sw_order` (`order_u_id`,`order_u_name`,`order_consignee_id`,`order_remarks`) VALUES ('14','','0','') [ RunTime:0.0160s ]
+SQL: select order_create_time from sw_order where order_id=52 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/flow.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:images
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Home/Order/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:53+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:55+08:00 ] ::1 /12-26shop/Home/Center/ucenter1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:55+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:15:55+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:55+08:00 ] ::1 /12-26shop/Public/images/menuBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:56+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:15:58+08:00 ] ::1 /12-26shop/Home/Order/images/flow.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:images
+
+[ 2017-01-10T22:15:59+08:00 ] ::1 /12-26shop/Public/images/zoomin.cur
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-10T22:16:00+08:00 ] ::1 /12-26shop/Home/Index/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\IndexController.class.php:52) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\IndexController.class.php:52) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\IndexController.class.php:52) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:02+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/Qimg/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/Qimg/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/images/tit3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:16:03+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:06+08:00 ] ::1 /12-26shop/Home/Index/login123?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=18 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0090s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('18','','0') [ RunTime:0.0010s ]
+
+[ 2017-01-10T22:16:13+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:16:15+08:00 ] ::1 /12-26shop/Home/Index/login123?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0080s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('15','诺基亚123456789','5800') [ RunTime:0.0040s ]
+
+[ 2017-01-10T22:19:10+08:00 ] ::1 /12-26shop/Home/Index/login123?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0080s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('15','诺基亚123456789','5800') [ RunTime:0.0010s ]
+
+[ 2017-01-10T22:19:11+08:00 ] ::1 /12-26shop/Home/Index/login123?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0080s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('15','诺基亚123456789','5800') [ RunTime:0.0020s ]
+
+[ 2017-01-10T22:19:11+08:00 ] ::1 /12-26shop/Home/Index/login123?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0090s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('15','诺基亚123456789','5800') [ RunTime:0.0030s ]
+
+[ 2017-01-10T22:19:12+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/Qimg/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/Qimg/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/images/tit3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:13+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:14+08:00 ] ::1 /12-26shop/Home/Index/login123?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0120s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('14','apple6','0') [ RunTime:0.0020s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/Home/Index/login123?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('14','apple6','0') [ RunTime:0.0020s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: arr D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/Public/images/user_tit2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/Public/images/user_tit1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:31+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:34+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/Home/Index/login123?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('14','apple6','0') [ RunTime:0.0020s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: arr D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/Public/images/user_tit1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/Public/images/user_tit2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:37+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:53+08:00 ] ::1 /12-26shop/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: arr D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\7c52e7eb90833dbb1180e704459511ff5c05d692.file.login.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:53+08:00 ] ::1 /12-26shop/Public/images/user_tit1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:53+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:53+08:00 ] ::1 /12-26shop/Public/images/user_tit2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:53+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:54+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:55+08:00 ] ::1 /12-26shop/Home/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Home\Controller\GoodsController.class.php:32) D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/Qimg/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/images/tit3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:56+08:00 ] ::1 /12-26shop/Public/images/bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/Home/Index/login123?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: INSERT INTO `sw_cart` (`c_goods_id`,`c_name`,`c_parentid`) VALUES ('14','apple6','0') [ RunTime:0.0010s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/index.php/Index/login/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/Public/images/user_tit2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/Public/images/bnt_ur_log.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/Public/images/user_tit1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:57+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/gwc1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sw_cart`  [ RunTime:0.0010s ]
+SQL: select c_goods_id,c_name,count(c_name) as name_num  from  sw_cart GROUP BY  c_name [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:19:59+08:00 ] ::1 /12-26shop/Home/Goods/images/flow.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:images
+
+[ 2017-01-10T22:20:00+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/Home/Goods/onedelete?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `sw_cart` WHERE ( c_goods_id=18 ) [ RunTime:0.0020s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/gwc1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sw_cart`  [ RunTime:0.0010s ]
+SQL: select c_goods_id,c_name,count(c_name) as name_num  from  sw_cart GROUP BY  c_name [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+NOTIC: [8] Undefined index: c_parentid D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\1c6e78e7108b372af5b1608cf525f7e26b47f50e.file.gwc1.html.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/flow.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:images
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/Public/images/NavBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/Public/images/header_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/Public/images/inputbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-10T22:20:29+08:00 ] ::1 /12-26shop/index.php/Goods/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

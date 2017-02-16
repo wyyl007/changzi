@@ -1,0 +1,885 @@
+[ 2017-01-04T15:22:37+08:00 ] 127.0.0.1 /12-26shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T15:23:13+08:00 ] 127.0.0.1 /12-26shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T15:23:13+08:00 ] 127.0.0.1 /12-26shop/Admin/Denglu/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T15:23:15+08:00 ] 127.0.0.1 /12-26shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T15:29:44+08:00 ] 127.0.0.1 /12-26shop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:41:23+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 63 行.
+NOTIC: [8] Undefined index: s_brand_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 82 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-04T20:41:27+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: INSERT INTO `sw_goods` (`goods_name`,`goods_category_id`,`goods_brand_id`,`goods_price`,`goods_introduce`) VALUES ('','0','0','0','') [ RunTime:0.0020s ]
+
+[ 2017-01-04T20:41:30+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T20:41:36+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 63 行.
+NOTIC: [8] Undefined index: s_brand_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 82 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\68afe65a8818454e48379564d0621bd9fb74f9b0.file.add.html.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-04T20:41:49+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sw_goods` (`goods_name`,`goods_category_id`,`goods_brand_id`,`goods_price`,`goods_introduce`) VALUES ('nklsdgvknk','0','0','5900','sdgv ; ') [ RunTime:0.0010s ]
+
+[ 2017-01-04T20:41:52+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T20:42:30+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T20:42:45+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_goods` WHERE ( goods_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_goods` WHERE ( goods_id= ) 
+
+[ 2017-01-04T20:43:20+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:43:48+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:43:50+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:43:51+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:44:15+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T20:46:08+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T20:47:00+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T20:47:01+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T21:11:24+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0010s ]
+
+[ 2017-01-04T21:11:25+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T21:11:26+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0010s ]
+
+[ 2017-01-04T21:11:27+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T21:11:28+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:11:30+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:11:31+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:31:46+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+
+[ 2017-01-04T21:37:24+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php): No such file or directory D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:27+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:30+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-04T21:37:38+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:37:42+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:37:43+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:37:44+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:46+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:46+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/show?&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sw_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select * from sw_goods order by goods_id  desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: s_category_info D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Runtime\Cache\fb2fac05779a4a897433bf040c4b05d901fc1fe9.file.show.html.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:52+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\6b0fae22cfa58ee412dd4592a01b509311f9e73b.file.update.html.php D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\6b0fae22cfa58ee412dd4592a01b509311f9e73b.file.update.html.php): No such file or directory D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:37:54+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/admin.php?c=goods&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+ERR: 非法操作:admin.php
+
+[ 2017-01-04T21:37:56+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:37:58+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0040s ]
+SQL: UPDATE `sw_goods` SET `goods_introduce`='sdgv ; ',`goods_name`='nklsdgvknk',`goods_category_id`='0',`goods_price`='5900',`goods_brand_id`='0',`goods_id`='23' WHERE ( goods_id=23 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:38:00+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:38:01+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: goods_introduce D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: goods_name D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Undefined index: goods_category_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 102 行.
+NOTIC: [8] Undefined index: goods_price D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 108 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+
+[ 2017-01-04T21:38:03+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:38:05+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: UPDATE `sw_goods` SET `goods_introduce`='sdgv ; ',`goods_name`='nklsdgvknk',`goods_category_id`='0',`goods_price`='5900',`goods_brand_id`='0',`goods_id`='23' WHERE ( goods_id=23 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:38:08+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:38:13+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: UPDATE `sw_goods` SET `goods_introduce`='sdgv ; ',`goods_name`='nklsdgvknk',`goods_category_id`='0',`goods_price`='5900',`goods_brand_id`='0',`goods_id`='23' WHERE ( goods_id=23 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:38:15+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:38:15+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: goods_introduce D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: goods_name D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Undefined index: goods_category_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 102 行.
+NOTIC: [8] Undefined index: goods_price D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 108 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+
+[ 2017-01-04T21:38:16+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-04T21:38:18+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: goods_introduce D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: goods_name D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Undefined index: goods_category_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 102 行.
+NOTIC: [8] Undefined index: goods_price D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 108 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+
+[ 2017-01-04T21:38:18+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T21:38:19+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: goods_introduce D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: goods_name D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Undefined index: goods_category_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 102 行.
+NOTIC: [8] Undefined index: goods_price D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 105 行.
+NOTIC: [8] Undefined index: id D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 108 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sw_goods` SET `goods_introduce`=NULL,`goods_name`=NULL,`goods_category_id`=NULL,`goods_price`=NULL,`goods_brand_id`=NULL,`goods_id`=NULL WHERE ( goods_id= )
+
+[ 2017-01-04T21:38:19+08:00 ] 127.0.0.1 /12-26shop/index.php/Admin/Goods/update?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\12-26shop\Application\Admin\Controller\GoodsController.class.php 第 128 行.
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( goods_id=23 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
